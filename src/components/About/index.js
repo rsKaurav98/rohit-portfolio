@@ -3,7 +3,8 @@ import React, { useEffect } from 'react'
 import AnimatedLetters from '../AnimatedLetters'
 import { useState } from 'react';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
-import {faCss3, faGitAlt, faGithub, faHtml5, faJsSquare, faNodeJs, faReact} from '@fortawesome/free-brands-svg-icons'
+import {faCss3, faGithub, faHtml5, faJsSquare, faNodeJs, faReact} from '@fortawesome/free-brands-svg-icons'
+
 
 const About= () => {
     const [letterClass , setLetterClass] = useState(`text-animate`)
@@ -14,6 +15,8 @@ const About= () => {
        },3000)
    },[])
   return (
+
+    <>
     <div className='container about-page'>
       <div className='text-zone'>
         <h1>
@@ -47,20 +50,19 @@ const About= () => {
             <div className='face4'>
               <FontAwesomeIcon icon={faGithub} color='#ccffff'/>
             </div>
-            <div className='face4'>
+            <div className='face5'>
               <FontAwesomeIcon icon={faJsSquare} color='#EFD81D'/>
             </div>
-            <div className='face5'>
-              <FontAwesomeIcon icon={faNodeJs} color='#75FF33'/>
-            </div>
             <div className='face6'>
-              <FontAwesomeIcon icon={faGitAlt} color='#ff3300'/>
+              <FontAwesomeIcon icon={faNodeJs} color='#75FF33'/>
             </div>
 
         </div>
-
       </div>
     </div>
+    
+    
+    </>
   )
 }
 
