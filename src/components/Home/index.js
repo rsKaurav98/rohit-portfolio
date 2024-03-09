@@ -5,6 +5,7 @@ import './index.scss'
 import AnimatedLetters from '../AnimatedLetters'
 import Logo from './logo';
 
+
 const Home = () => {
     const [letterClass , setLetterClass] = useState(`text-animate`)
     const nameArray = ['o','h','i','t']
