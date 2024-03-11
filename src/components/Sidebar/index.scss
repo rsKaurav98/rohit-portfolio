@@ -83,6 +83,16 @@
             content: 'CONTACT';
         }
      }
+     a.portfolio-link{
+      &:after {
+          content: 'PORTFOLIO';
+          max-width: 100%; 
+          white-space: nowrap;
+         overflow: hidden; 
+         text-overflow: ellipsis; 
+          
+      }
+   }
      a.active{
         svg {
             color: #ffd700;

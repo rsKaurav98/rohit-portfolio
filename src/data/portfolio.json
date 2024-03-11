@@ -1,0 +1,41 @@
+{
+    "portfolio": [
+        {
+            "cover": "/portfolio/photos/stressaway.png",
+            "title": "StressAway",
+            "description": "React, JSX,JavaScript, CSS3",
+            "url": "https://www.stressaway.in/"
+        },
+        {
+            "cover": "/portfolio/photos/SKS.png",
+            "title": "SKS(Backend)",
+            "description": "Nodejs,Reactjs,MongoDb,ExpressJs,Redux,JavaScript,ChakraUi, CSS3",
+            "url": "https://github.com/rsKaurav98/MERN-Project"
+        },
+         
+        {
+            "cover": "/portfolio/photos/amazon.png",
+            "title": "Amazon Clone",
+            "description": "HTML, JavaScript, CSS",
+            "url": "https://amazn-ecommerce.netlify.app/"
+        },
+        {
+            "cover": "/portfolio/photos/pf.png",
+            "title": "Portfolio",
+            "description": "React Js, JSX, Bootstrap, Next Js",
+            "url": "https://my-portfolio-kauravrohit01-gmailcom-rohit-s-projects-b84288a6.vercel.app/"
+        },
+        {
+            "cover": "/portfolio/photos/chat.png",
+            "title": "Chat.app",
+            "description": "React,JavaScript,FireBase,ChakraUI",
+            "url": "https://rohit-chatapp-reacatjs.netlify.app/"
+        },
+        {
+            "cover": "/portfolio/photos/netflix.png",
+            "title": "Netflix Clone",
+            "description": "HTML, JavaScript,CSS",
+            "url": "https://github.com/rsKaurav98/clone-netflix"
+        }
+    ]
+}
