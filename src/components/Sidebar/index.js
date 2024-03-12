@@ -1,7 +1,7 @@
 import './index.scss';
 import {Link , NavLink} from 'react-router-dom'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
-import {faEnvelope, faHome, faSuitcase, faUser  } from '@fortawesome/free-solid-svg-icons'
+import {faBars, faEnvelope, faHome, faSuitcase, faUser  } from '@fortawesome/free-solid-svg-icons'
 import {faLinkedinIn , faGithub,faTwitter} from '@fortawesome/free-brands-svg-icons'
 import LogoR from "../../assets/images/logo.png"
 import LogoSub from '../../assets/images/logo_subr.png'
@@ -58,6 +58,11 @@ const Sidebar = () => {
         </a>
     </li>
    </ul>
+   <FontAwesomeIcon icon={faBars}
+   color='#ffd700'
+   size='3x'
+   className='hamburger-icon'
+   />
     </div>
   )
 }
